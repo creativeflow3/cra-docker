@@ -1,11 +1,14 @@
 To Run Docker:
-### docker-compose up -d --build
+### `docker-compose up -d --build`
 
 To Shut Down Docker:
-### docker-compose down
+### `docker-compose down`
 
 Production:
-### docker-compose -f docker-compose.prod.yml up -d --build
+### `docker-compose -f docker-compose.prod.yml up -d --build`
+
+Local URL:
+http://localhost:3101
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
