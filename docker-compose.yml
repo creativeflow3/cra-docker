@@ -9,7 +9,7 @@ services:
       - '.:/app'
       - '/app/node_modules'
     ports:
-      - 3100:3101
+      - 3100:3100
     environment:
       - CHOKIDAR_USEPOLLING=true  
     stdin_open: true
